@@ -1,7 +1,7 @@
 .gold{
 	color: #FFBF00;
 }
-/*not8?
+
 /*********************************************
 					PRODUCTS
 *********************************************/
@@ -295,113 +295,14 @@
 
 }
 
-.panel-footer {
+.panel-table footer {
 	background-color : transparent;
-  color : black;
-	font-size: 1.5em;
-  font-weight : 100;
+    color : black;
+	font-size:10pt;
+    font-weight : 100;
+    font-size : 30px;
 	position:relative;
-	top: 11.25em;
-	height: 0em;
-	text-align:center;;
+	top:120px;
+	height:70px;
+	text-align:center;
 }
-.hr-page{
-  border: 5;
-  border-top: 1px solid #8c8c8c;
-  border-bottom: 1px solid #fff;
-}
-
-/* DISABLED
-#td1{
-	background:url("images/omega/a1.jpg") no-repeat;
-	background-size:100% 100%;
-
-}
-#td2{
-
-	background:url("images/omega/a2.jpg") no-repeat;
-	background-size:100% 100%;
-
-
-}
-#td3{
-	background:url("images/omega/a3.jpg") no-repeat;
-	background-size:100% 100%;
-
-}
-#td4{
-	background:url("images/omega/a4.jpg") no-repeat;
-	background-size:100% 100%;
-}
-#td5{
-	background:url("images/omega/a5.jpg") no-repeat;
-	background-size:100% 100%;
-}
-#td6{
-	background:url("images/omega/a6.jpg") no-repeat;
-	background-size:100% 100%;
-}
-#td7{
-	background:url("images/omega/a7.jpg") no-repeat;
-	background-size:100% 100%;
-}#td8{
-	background:url("images/omega/a8.jpg") no-repeat;
-	background-size:100% 100%;
-}#td9{
-	background:url("images/omega/a9.jpg") no-repeat;
-	background-size:100% 100%;
-}#td10{
-	background:url("images/omega/a10.jpg") no-repeat;
-	background-size:100% 100%;
-}#td11{
-	background:url("images/omega/a11.jpg") no-repeat;
-	background-size:100% 100%;
-}#td12{
-	background:url("images/omega/a12.jpg") no-repeat;
-	background-size:100% 100%;
-}#td13{
-	background:url("images/omega/a13.jpg") no-repeat;
-	background-size:100% 100%;
-}#td14{
-	background:url("images/omega/a14.jpg") no-repeat;
-	background-size:100% 100%;
-}#td15{
-	background:url("images/omega/a15.jpg") no-repeat;
-	background-size:100% 100%;
-}
-*/
-
-body{
- margin:0px;
- padding:0px;
-}
- #logo{
- width:130px;
- height:130px;
- position:relative;
- bottom:10px;
- }
- .navbar{
- height:120px;
- background:black;
- }
- .nav, .navbar-form{
-  position:relative;
-  top:30px;
-  font-family: 'Playfair Display', serif;
-  font-size:12pt;
-  color:#231F20;
- }
-
- .btn{
- background:transparent;
- border:transparent;
- }
-
- .navbar-nav{
- text-align: center;
- }
- .navbar-toggle{
- position:relative;
-   top:20px;
- }
