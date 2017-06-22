@@ -277,6 +277,18 @@
    border-top : 1px solid #eeebe6;
 
 }
+<<<<<<< HEAD
+.panel-table{
+	border: none !important;
+}
+.panel-table .body td{
+	background-color: #fff !important;
+	border: none !important;
+=======
+.panel-table .body td{
+	background-color: #fff !important;
+>>>>>>> 7658ae6d2e276ca4d9111efc100699a3524d4b7f
+}
 
 .panel-table {
   border : 1px solid #E7e7e7;
@@ -371,7 +383,9 @@
 }
 */
 
-body{
+/* NAVBAR ADDITIVES (should not affect the other)*/
+
+.nav-custom{
  margin:0px;
  padding:0px;
 }
@@ -393,9 +407,10 @@ body{
   color:#231F20;
  }
 
- .btn{
- background:transparent;
- border:transparent;
+ .btn-new{
+ 	background:transparent;
+ 	border:transparent;
+	color: #fff;
  }
 
  .navbar-nav{
