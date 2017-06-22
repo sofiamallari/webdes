@@ -373,7 +373,7 @@
 
 /* NAVBAR ADDITIVES */
 
-body{
+.nav-custom{
  margin:0px;
  padding:0px;
 }
@@ -395,9 +395,10 @@ body{
   color:#231F20;
  }
 
- .btn{
- background:transparent;
- border:transparent;
+ .btn-new{
+ 	background:transparent;
+ 	border:transparent;
+	color: #fff;
  }
 
  .navbar-nav{
