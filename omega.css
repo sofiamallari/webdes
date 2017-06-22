@@ -277,6 +277,9 @@
    border-top : 1px solid #eeebe6;
 
 }
+.panel-table .body td{
+	background-color: #fff !important;
+}
 
 .panel-table {
   border : 1px solid #E7e7e7;
