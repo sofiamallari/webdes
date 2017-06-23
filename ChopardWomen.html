@@ -6,7 +6,7 @@
     <meta name="description" content="Luxurious Watches">
     <meta name="keywords" content="watch, luxury, alpha, wrist watch">
     <meta name="author" content="Mallari, Villanueva">
-    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- End of Meta -->
 
     <script
@@ -31,7 +31,7 @@
 
     <!-- External css -->
     <link href="omega.css" type="text/css" rel="stylesheet">
-    <link href="popup.css" type="text/css" rel="stylesheet">
+    <link href="css/popup.css" type="text/css" rel="stylesheet">
 
     <title>Alpha: Wrist Watch</title>
   </head>
@@ -47,7 +47,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src= "images/A.png" id="logo"></a>
+        <a class="navbar-brand" href="#"><img src= "images/A.png" id="logo" style="width: 3.5em !important;"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -145,7 +145,7 @@
     <div class="item">
       <img src="bg/bg9.jpg" alt="...">
       <div class="carousel-caption-1">
-	  
+
       </div>
     </div>
   </div>
@@ -162,17 +162,129 @@
   <!-- Main Enclosing Div for content -->
  <div id='content' class='row-fluid'>
       <div class='span2 sidebar col-md-2'>
-             <p id="hnav">Category</p>
-			<ul class="nav nav-tabs nav-stacked" id="nav"> 
-              <li><a href="" class="c">Color</a></li>
-              <li><a href="" class="c">Watch Movement</a></li>
-              <li><a href="" class="c">Price Range</a><li>
-              <li><a href="" class="c">Size</a><li>
-              <li><a href="" class="c">Material</a><li>
-              <li><a href="" class="c">Case</a></lI>
-              <li><a href="" class="c">Style</a></li>
-    		</ul>
-      </div>
+        <h3>Category</h3>
+        <div class="panel-group col-md-3 col-xs-12" id="accordion">
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+               Color</a>
+             </h4>
+           </div>
+           <div id="collapse1" class="panel-collapse collapse in">
+             <div class="panel-body">
+               <ul class="nav nav-tabs nav-stacked">
+                 <li><a href="">Rose Gold</a></li>
+                 <li><a href="">Black</a></li>
+                 <li><a href="">Gray</a></li>
+                 <li><a href="">Gold</a></li>
+                 <li><a href="">Silver</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+               Watch Movement</a>
+             </h4>
+           </div>
+           <div id="collapse2" class="panel-collapse collapse">
+             <div class="panel-body">
+               <ul class="nav nav-tabs nav-stacked">
+                 <li><a href="">Rolex</a></li>
+                 <li><a href="">Omega</a></li>
+                 <li><a href="">Seiko</a></li>
+                 <li><a href="">Patek Philippe</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+               Price Range</a>
+             </h4>
+           </div>
+           <div id="collapse3" class="panel-collapse collapse">
+             <div class="panel-body">
+               <ul class="nav nav-tabs nav-stacked">
+               <li><a href="">$5000</a></li>
+               <li><a href="">$10000</a></li>
+               <li><a href="">$15000</a></li>
+               <li><a href="">$20000+</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+               Size</a>
+             </h4>
+           </div>
+           <div id="collapse4" class="panel-collapse collapse">
+             <div class="panel-body"><ul class="nav nav-tabs nav-stacked">
+               <li><a href="">Small</a></li>
+               <li><a href="">Regular</a></li>
+               <li><a href="">Large</a></li>
+               <li><a href="">Titan</a></li>
+             </ul></div>
+           </div>
+         </div>
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+               Material</a>
+             </h4>
+           </div>
+           <div id="collapse5" class="panel-collapse collapse">
+             <div class="panel-body"><ul class="nav nav-tabs nav-stacked">
+               <li><a href="">Gold</a></li>
+               <li><a href="">Diamond</a></li>
+               <li><a href="">Mixed<a></li>
+             </ul></div>
+           </div>
+         </div>
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+               Case</a>
+             </h4>
+           </div>
+           <div id="collapse6" class="panel-collapse collapse">
+             <div class="panel-body"><ul class="nav nav-tabs nav-stacked">
+             <li><a href="">Simple</a></li>
+             <li><a href="">Aesthetic</a></li>
+             <li><a href="">Enthusiast</a></li>
+             <li><a href="">Hobbyist</a></li>
+             </ul></div>
+           </div>
+         </div>
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+               Style</a>
+             </h4>
+           </div>
+           <div id="collapse7" class="panel-collapse collapse">
+             <div class="panel-body">
+               <ul class="nav nav-tabs nav-stacked">
+                 <li><a href="">Casual</a></li>
+                 <li><a href="">Diver</a></li>
+                 <li><a href="">Sports</a></li>
+                 <li><a href="">General</a></li>
+               </ul>
+            </div>
+           </div>
+         </div>
+        </div>
 
 
     <!-- Main Enclosing Div for products -->
@@ -192,7 +304,7 @@
          </form>
          <hr class="hr-page">
        </div>
-	   
+
        <div class="panel-table-container col-lg-4 col-md-4 col-sm-1">
          <table class="panel-table">
            <tr class="body"><td id="td11">
@@ -426,8 +538,8 @@
 				</tr>
             </table>
         </div>
-		
-		
+
+
 		<div class="panel-table-container col-lg-4 col-md-4 col-sm-1">
           <table class="panel-table">
             <tr class="body"><td id="td13">
@@ -445,8 +557,8 @@
 				</tr>
             </table>
         </div>
-		
-		
+
+
 		<div class="panel-table-container col-lg-4 col-md-4 col-sm-1">
           <table class="panel-table">
             <tr class="body"><td id="td13">
@@ -465,7 +577,7 @@
             </table>
         </div>
 
-        
+
 
         </div>
       </div>
@@ -966,7 +1078,7 @@
           		</div></div></div></div></div></div>
             </div>
           </div>
-	
+
 	<div>
           <div class="pop-container-fluid modal fade col-xs-12" id="modal15" role="dialog">
             <div class="modal-dialog whole"><div class="pop-content-wrapper "><div class="item-container "><div class="container ">
@@ -1000,7 +1112,7 @@
                 <button type="button" class="btn btn-danger">Add to wishlist</button>
           		</div></div></div></div></div></div>
             </div>
-          </div>  
+          </div>
   <!-- End of Modals-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
