@@ -15,6 +15,8 @@
   position: absolute;
   top: 75%;
   left: 50%;
+  width: 24em;
+  align-content: center;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
@@ -26,14 +28,27 @@
   z-index: -1;
 }
 .middle-text {
-  background-color: white;
-  color: black;
+ color: black;
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+}
+.middle-title{
+  color:black;
   font-size: 2em;
   font-family: 'Oswald', sans-serif;
-  padding-top: 1em;
-  padding-left: 1em;
-  padding-bottom: 1em;
-
+}
+.middle-contain{
+    height: 12em;
+    padding-left: 5em;
+    padding-top: 3em;
+    background-color: white;
+    align-content: center;
+    align-self: center;
+}
+.middle-btn{
+  border-style: inset !important;
+  border-color: black;
+  margin-left: 15%;
 }
 </style>
 </head>
@@ -177,9 +192,10 @@
 		<div class="panel-table-container col-lg-6 col-md-6 col-sm-6"><table class="panel-table">
 			<tr class="body"><td id="wh">
         <img src="table/rolex1.jpg" class="image" height="650px" width="550px">
-        <div class="middle">
+        <div class="middle  col-xs-4">
           <div class="middle-contain">
-            <a href="audemars.html"><p class="middle-text">Male</p></a>
+            <p class="middle-title">SHOP FOR MEN</p>
+            <a href="audemars.html" class="btn middle-btn"><p class="middle-text">SHOP NOW</p></a>
           </div>
       </td></tr>
 			</table>
@@ -189,7 +205,11 @@
 			<table class="panel-table">
 			<tr class="body"><td>
         <img src="table/bg2.jpg"  class="image" height="650px" width="500px">
-        <div class="middle"><p class="middle-text">Female</p></div>
+        <div class="middle">
+          <div class="middle-contain">
+            <p class="middle-title">SHOP FOR WOMEN</p>
+            <a href="omega.html" class="btn middle-btn"><p class="middle-text">SHOP NOW</p></a>
+          </div></div>
       </td></tr>
 			</table>
 		</div>
