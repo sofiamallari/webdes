@@ -1,3 +1,7 @@
+/** CUSTOM FONTS **/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 body{
  margin:0px;
  padding:0px;
@@ -195,7 +199,7 @@ width: 220px !important;
    top:30%;
 }
 .marg-top{
-  padding-top:100 em;
+  margin-top: 2em;
 }
 .panel-table {
   height : 300px;
@@ -225,4 +229,11 @@ width: 220px !important;
 	height:600px;
 	top:100px;
 	position:relative;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+.playfair{
+  font-family: 'Playfair Display', serif;
 }
