@@ -330,8 +330,8 @@
  padding:0px;
 }
  #logo{
- width:130px;
- height:130px;
+ width:1em !important;
+ height:1em !important;
  position:relative;
  bottom:10px;
  }
